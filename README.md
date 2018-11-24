@@ -53,3 +53,6 @@ Line | Type | Name | Value
 2 | VariableDeclarator | low | 0
 ... | ... | ... | ...
 # karinmishor-sqe-workshop-2018-exercise-1
+
+
+
