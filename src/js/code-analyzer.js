@@ -28,14 +28,15 @@ function getParseData(parse) {
     }
 }
 function findBodyType(parsedObj) {
-    /*  if (parsedObj.body) {*/
-    for (let i = 0; i < parsedObj.body.length; i++) {
-        findType(parsedObj.body[i]);
-    }
+    if (parsedObj.body) {
+        for (let i = 0; i < parsedObj.body.length; i++) {
+            findType(parsedObj.body[i]);
+        }
 
-    /* } else
-         return;*/
+    } else
+        findType(parsedObj);
 }
+
 
 function bodyParse(parse) {
     try {
